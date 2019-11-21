@@ -91,7 +91,7 @@ public class MainActivity extends AppCompatActivity implements CameraBridgeViewB
                     case LoaderCallbackInterface.SUCCESS:
                         Log.i(TAG, "Loader interface success");
 
-                        // load cascade file from application resources
+                        // load cascade file 
                         try {
                             InputStream is = getResources().openRawResource(R.raw.lbpcascade_frontalface);
                             File cascadeDir = getDir("cascade", Context.MODE_PRIVATE);
